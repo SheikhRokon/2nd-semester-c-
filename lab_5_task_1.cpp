@@ -38,8 +38,8 @@ int main() {
     Rectangle rectangle(4.0, 5.0);
     Triangle triangle(3.0, 6.0);
 
-    cout << "Rectangle Area: " << rectangle.Area() << std::endl;
-    cout << "Triangle Area: " << triangle.Area() << std::endl;
+    cout << "Rectangle Area: " << rectangle.Area() << endl;
+    cout << "Triangle Area: " << triangle.Area() << endl;
 
     return 0;
 }
