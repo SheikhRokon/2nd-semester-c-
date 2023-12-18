@@ -1,4 +1,5 @@
 #include <iostream>
+using namespace std;
 
 class Shape {
 public:
@@ -37,8 +38,8 @@ int main() {
     Rectangle rectangle(4.0, 5.0);
     Triangle triangle(3.0, 6.0);
 
-    std::cout << "Rectangle Area: " << rectangle.Area() << std::endl;
-    std::cout << "Triangle Area: " << triangle.Area() << std::endl;
+    cout << "Rectangle Area: " << rectangle.Area() << std::endl;
+    cout << "Triangle Area: " << triangle.Area() << std::endl;
 
     return 0;
 }
